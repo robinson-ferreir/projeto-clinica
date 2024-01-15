@@ -1,0 +1,39 @@
+.cadastro{
+    background-color: rgb(208, 254, 247);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-cadastro {
+    background-color: rgb(235, 238, 242);
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;   
+
+}
+
+.titulo-cadastro h1 {
+    font-family: 'Kanit';
+    font-size: 26px;
+    text-align: center;
+
+}
+
+.formulario-cadastro > div{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 25px;
+    
+}
+
+.botao-cadastro {
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(171, 171, 228);
+
+}

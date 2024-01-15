@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ptojeto Clínica de Saúde</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="agend-css.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="agendamento">
+    <main class="container-agend">
+        <section class="secao-agend">
+            <div class="titulo-agendamento">
+                <h1>Agendamento de Cosultas</h1>
+                <p>Agende aqui sua consulta!</p>
+            </div>
+            <br>
+        </section>
+
+        <form class="formula">
+            <div class="infomacoes">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+            </div>
+
+            <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+            </div>
+
+            <div>
+                <label for="email">E-mail ou Celular:</label>
+                <input type="text" name="email-ou-celular" id="email-ou-celular" placeholder="Email ou Celular"
+                    required>
+            </div>
+
+            <div>
+                <label for="genero">Gênero:</label><br>
+                <label for="masculino">
+                    <input type="radio" name="genero" id="masculino" value="masculino" required>Masculino
+                </label>
+
+                <label for="feminino">
+                    <input type="radio" name="genero" id="feminino" value="feminino" required>Feminino
+                </label>
+            </div>
+
+            <div>
+                <label for="data-de-nascimento">Data de Nascimento:</label>
+                <input type="date" name="data-de-nascimento" id="data-de-nascimento" required>
+            </div>
+
+            <div>
+                <label for="horário">Horário:</label>
+                <input type="time" name="horário" id="horário" required>
+            </div>
+
+            <div>
+                <button class="botao">Agendar</button>
+            </div>
+
+            <div>
+                <a href="./inicio.html">Voltar</a>
+            </div>
+        </form>
+
+    </main>
+</body>
+
+</html>

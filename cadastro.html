@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ptojeto Clínica de Saúde</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cadastro.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body class="cadastro">
+    <main class="container-cadastro">
+        <div class="titulo-cadastro">
+            <h1>Efetue seu Cadastro</h1>
+        </div>
+        <br>
+    
+
+    <form class="formulario-cadastro">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+        </div>
+
+        <div>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+        </div>
+
+        <div>
+            <label for="email">E-mail ou Celular:</label>
+            <input type="text" name="email-ou-celular" id="email-ou-celular" placeholder="Email ou Celular" required>
+        </div>
+        
+        <div class="informacoes-cadastro">
+            <label for="senha">Senha:</label>
+            <input type="password" nome="senha" id="senha" placeholder="Nova Senha">
+        </div>
+
+        <div>
+            <label for="genero">Gênero:</label><br>
+            <label>
+                <input type="radio" name="genero" id="masculino" required>Masculino
+            </label>
+
+            <label>
+                <input type="radio" name="genero" id="feminino" required>Feminino
+            </label>
+        </div>
+
+        <div>
+            <label for="data-de-nascimento">Data de Nascimento:</label>
+            <input type="date" name="data-de-nascimento" id="data-de-nascimento" required>
+        </div>
+
+        <button class="botao-cadastro">Cadastrar</button><br>
+
+        <div>
+            <a href="./inicio.html">Voltar</a>
+        </div>
+    </form>
+
+
+    </main>
+    
+</body>
+
+</html>

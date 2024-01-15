@@ -1,0 +1,96 @@
+.inicio{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(208, 254, 247);
+}
+
+.container {
+    font-family: 'Kanit'; 
+
+    
+}
+
+.informacoes-inicio{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    
+}
+.login h2{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Kanit';
+}
+
+.aside .login-nome, .login-sobrenome, .login-email-ou-celular {
+    display: flex;    
+    padding: 10px;
+    font-family: 'Montserrat';
+}
+
+.login {
+    background-color: #bab9b9;
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+.entrar{
+    font-size: 22px;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+img{
+    width: 1000px ;
+    height: 72vh;
+    
+}
+
+.navegacao{
+    font-family: 'Kanit';
+    font-weight: 400;
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+    
+    gap: 20px;
+    padding-right: 40px;
+    
+}
+
+.titulo {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+p {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+button:hover {
+    color: rgb(49, 49, 125);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    transform: scale(1.0);
+    cursor: pointer;
+    
+}
+
+footer {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #bab9b9;
+    margin-top: 8px;
+    font-size: 14px;
+    
+}

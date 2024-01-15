@@ -1,0 +1,21 @@
+.sobre-container{
+    background-color: rgb(208, 254, 247);
+}
+.botao-sobre{
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+
+.sobre {
+    font-family: 'Kanit';
+}
+
+.sobre h1{
+    font-size: 32px;
+    color: #a1a4f7;
+}
+
+.sobre p {
+    font-family: 'Montserrat';
+}
